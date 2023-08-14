@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import * as THREE from "three";
-import SceneInit from "./lib/SceneInit";
+import SceneInit from "../lib/SceneInit";
 import CustomEditor from "./components/CustomEditor";
-import { vertexShader, fragmentShader } from "./lib/Shaders";
+import { vertexShader, fragmentShader } from "../lib/Shaders";
 
 export default function Home() {
   let test, audioContext, audioElement, dataArray, analyser, source;
