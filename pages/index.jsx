@@ -48,8 +48,8 @@ export default function Home() {
     };
 
     // note: uncomment these geometries to see different visualizations
-    const planeGeometry = new THREE.BoxGeometry(64, 64, 8, 64, 64, 8);
-    // const planeGeometry = new THREE.SphereGeometry(16, 64, 64);
+    // const planeGeometry = new THREE.BoxGeometry(64, 64, 8, 64, 64, 8);
+    const planeGeometry = new THREE.SphereGeometry(16, 64, 64);
 
     // note: set up plane mesh and add it to the scene
     //const planeGeometry = new THREE.PlaneGeometry(64, 64, 64, 64);
