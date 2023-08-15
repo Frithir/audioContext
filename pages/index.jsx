@@ -73,7 +73,7 @@ export default function Home() {
     if (gui === undefined) {
       await initGui();
       const audioWaveGui = gui.addFolder(
-        "John make chages to the amplitude here"
+        "Make chages to the amplitude here"
       );
       // audioWaveGui
       //   .add(planeCustomMaterial, "wireframe")
@@ -128,10 +128,9 @@ export default function Home() {
         <div
           id="welcome"
           className="text-center absolute bg-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-8 py-4 rounded-xl text-2xl bg-blue-500 "
-        >
-          <p>Hey John check this out a fun three JS tutorial</p>
-          <p> next.js + tailwind css + three.js</p>
+        >        
           <h2>Press play!</h2>
+          <p>next.js + tailwind css + three.js</p>
         </div>
       )}
       <canvas id="threeJs"></canvas>
